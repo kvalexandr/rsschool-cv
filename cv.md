@@ -1,7 +1,7 @@
 # Alexandr Kudryavtsev
 
 * Located in Izhevsk, Russia
-* Telegram: ![@kvalexandr](https://t.me/kvalexandr)
+* Telegram: ![kvalexandr](https://t.me/kvalexandr)
 * E-mail: k.v.alexandr@gmail.com
 
 ## Summary
@@ -36,3 +36,10 @@ export default buildQueryString;
 * Bitrix sites
 * Now, I have two frontend projects
 
+## Education
+
+Izhevsk state technical University - Software, computer engineering and automated systems
+
+**Self-education**
+* Studying learn.javascript.ru
+* Studying ru.hexlet.io
