@@ -1,7 +1,7 @@
 # Alexandr Kudryavtsev
 
 * Located in Izhevsk, Russia
-* Telegram: ![kvalexandr](https://t.me/kvalexandr)
+* Telegram: [@kvalexandr](https://t.me/kvalexandr)
 * E-mail: k.v.alexandr@gmail.com
 
 ## Summary
@@ -43,3 +43,7 @@ Izhevsk state technical University - Software, computer engineering and automate
 **Self-education**
 * Studying learn.javascript.ru
 * Studying ru.hexlet.io
+
+## English
+
+Pre-intermediate
