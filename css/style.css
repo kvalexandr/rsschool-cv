@@ -146,14 +146,9 @@ body {
   margin-bottom: 10px;
 }
 
-.list-contacts__info {
-
-}
-
 .list-contacts__info a {
   color: #939393;
 }
-
 
 .title {
   text-transform: uppercase;
