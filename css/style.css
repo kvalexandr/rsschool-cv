@@ -95,7 +95,7 @@ body {
 }
 
 .foto {
-  background: url('/images/avatar.jpg') no-repeat;
+  background: url('../images/avatar.jpg') no-repeat;
   width: 200px;
   height: 200px;
   border-radius: 50%;
