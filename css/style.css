@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900&display=swap&subset=cyrillic-ext");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+pre {
+  white-space: pre-line;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  font-family: "Roboto";
+  line-height: 1.4;
+  font-size: 16px;
+  color: #939393;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item-params {
+  width: 30%;
+  padding: 70px;
+}
+
+.item-description {
+  width: 70%;
+  flex: 1;
+  padding: 70px;
+}
+
+.bg-1 {
+  background-color: #f8f8f8;
+}
+
+.bg-2 {
+  background-color: #fcfcfc;
+}
+
+.bg-3 {
+  background-color: #fbfbfb;
+}
+
+.bg-3 {
+  background-color: #f0f0f0;
+}
+
+.foto {
+  background: url('../images/avatar.jpg') no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.name {
+  font-size: 40px;
+  line-height: 1;
+  color: #939393;
+}
+
+.last-name {
+  font-size: 60px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #F8BB10;
+  font-weight: 600;
+}
+
+.prof {
+  color: #939393;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.list-contacts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px solid #ececec;
+}
+
+.list-contacts__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.list-contacts__info a {
+  color: #939393;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .item-params {
+    width: 100%;
+  }
+  
+  .item-description {
+    width: 100%;
+    padding: 50px 70px;
+  }
+
+  .title {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+
+  .last-name {
+    font-size: 40px;
+  }
+
+  .list-contacts {
+    flex-direction: column;
+  }
+
+  .list-contacts li {
+    padding-bottom: 60px;
+  }
+}
